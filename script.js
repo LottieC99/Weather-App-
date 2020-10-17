@@ -35,8 +35,7 @@ function displayWeatherCondition(response) {
 iconElement.setAttribute("src", 
 `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
 );
-celsiusTemperature = response.data.main.temp;
-
+  celsiusTemperature = response.data.main.temp;
 
 }
 
@@ -65,6 +64,7 @@ function getCurrentLocation(event) {
   navigator.geolocation.getCurrentPosition(searchLocation);
 }
 
+
 function displayFarenheitTemperature(event){
   event.preventDefault();
   let temperatureElement = document.querySelector("#temperature");
@@ -90,6 +90,9 @@ let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener  ("click", displayCelsiusTemperature);
 
 let celsiusTemperature = null;
+
+
+
 let currentDateElement = document.querySelector("#currentDate");
 let currentTime = new Date();
 currentDateElement.innerHTML = formatDate(currentTime);
@@ -99,5 +102,8 @@ searchForm.addEventListener("submit", handleSubmit);
 
 let currentLocationButton = document.querySelector("#current-location-button");
 currentLocationButton.addEventListener("click", getCurrentLocation);
+
+
+
 
 searchCity("New York");
