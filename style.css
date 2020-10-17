@@ -37,11 +37,11 @@ h1 {
   font-family: "Source Code Pro", monospace;
 }
 ul {
-  text-align: left;
+  text-align: right;
   color: #515070;
   list-style: none;
   font-family: "Source Code Pro", monospace;
-  padding: 0;
+  padding: none;
 }
 
 h2 i {
@@ -50,8 +50,22 @@ h2 i {
   font-size: 100px;
   margin-top: 10px;
 }
+
+.weather-temperature strong {
+  color: #515070;
+  font-size: 32px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -10px;
+}
+
 .weather-temperature .active {
-  color: black;
+  color: #515070;
   cursor: default;
 }
 
