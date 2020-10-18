@@ -6,6 +6,8 @@ body {
   margin-top: 20px;
   text-align: center;
   opacity: 0.6;
+  margin-left: 0;
+  text-align: center;
 }
 .search-form {
   margin-bottom: 25px;
