@@ -35,6 +35,7 @@ h1 {
   color: #515070;
   text-align: left;
   font-family: "Source Code Pro", monospace;
+  font-size: 20px;
 }
 ul {
   text-align: left;
@@ -53,7 +54,7 @@ h2 i {
 
 .weather-temperature strong {
   color: #515070;
-  font-size: 32px;
+  font-size: 40px;
   line-height: 1;
   font-weight: 400;
 }
