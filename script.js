@@ -148,3 +148,4 @@ currentLocationButton.addEventListener("click", getCurrentLocation);
 
 
 searchCity("New York");
+
