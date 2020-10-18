@@ -4,7 +4,7 @@ body {
 
 .cards {
   margin-top: 20px;
-
+  text-align: center;
   opacity: 0.6;
 }
 .search-form {
