@@ -37,11 +37,11 @@ h1 {
   font-family: "Source Code Pro", monospace;
 }
 ul {
-  text-align: right;
+  text-align: left;
   color: #515070;
   list-style: none;
   font-family: "Source Code Pro", monospace;
-  padding: none;
+  margin-left: -14%;
 }
 
 h2 i {
