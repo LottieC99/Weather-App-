@@ -1,0 +1,75 @@
+body {
+  font-weight: lighter;
+}
+
+.cards {
+  margin-top: 20px;
+
+  opacity: 0.6;
+}
+.search-form {
+  margin-bottom: 25px;
+  margin-top: 50px;
+  text-align: center;
+  font-family: "Source Code Pro", monospace;
+  color: #515070;
+  opacity: 0.6;
+}
+
+.weather-app {
+  border: 1px solid #ff8e6e;
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  padding: 30px;
+  margin: 20px auto;
+  max-width: 700px;
+}
+
+p {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Source Code Pro", monospace;
+  color: #515070;
+}
+
+h1 {
+  color: #515070;
+  text-align: left;
+  font-family: "Source Code Pro", monospace;
+  font-size: 20px;
+}
+ul {
+  text-align: left;
+  color: #515070;
+  list-style: none;
+  font-family: "Source Code Pro", monospace;
+  margin-left: -14%;
+}
+
+h2 i {
+  color: #ff8e6e;
+  text-align: center;
+  font-size: 100px;
+  margin-top: 10px;
+}
+
+.weather-temperature strong {
+  color: #515070;
+  font-size: 40px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -10px;
+}
+
+.weather-temperature .active {
+  color: #515070;
+  cursor: default;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
